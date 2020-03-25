@@ -105,3 +105,4 @@
     pkg:
       - mlocate
     state: absent
+  ignore_errors: yes
