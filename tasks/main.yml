@@ -99,3 +99,9 @@
     name: nfs-common
     state: present
   when: ( mode == "node" )
+
+- name: remove mlocate
+  apt:
+    pkg:
+      - mlocate
+    state: absent
